@@ -37,3 +37,4 @@ Public/
 .pki/
 .bash_history
 .viminfo
+.local/share/fish/fish_history

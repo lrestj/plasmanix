@@ -1,0 +1,48 @@
+[general]
+
+[window]
+padding = { x = 8, y = 8 }
+dynamic_padding = true
+opacity = 0.77
+
+[font]
+size=14
+
+[font.normal]
+family = "HackNerdFont"
+
+[colors.primary]
+background = "#000f0f"
+#background = "#000000"
+
+[colors.cursor]
+text   = '#111111'
+cursor = '#cccccc'
+
+[colors.normal]
+black   = '#000000'
+red     = '#cc0403'
+green   = '#19cb00'
+yellow  = '#cecb00'
+blue    = '#0d73cc'
+magenta = '#cb1ed1'
+cyan    = '#0dcdcd'
+white   = '#dddddd'
+
+[colors.bright]
+black   = '#767676'
+red     = '#f2201f'
+green   = '#23fd00'
+yellow  = '#fffd00'
+blue    = '#1a8fff'
+magenta = '#fd28ff'
+cyan    = '#14ffff'
+white   = '#ffffff'
+
+[terminal]
+shell="fish"
+
+[keyboard]
+bindings = [
+{ key = "A", mods = "Super", action = "CreateNewWindow" },
+]

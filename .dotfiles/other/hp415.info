@@ -1,0 +1,22 @@
+http://localhost:631
+
+HP_Ink_Tank_Wireless_410_series_401D82
+
+drv:///hpcups.drv/hp-ink_tank_wireless_410_series.ppd
+
+
+hardware.printers = {
+  ensureDefaultPrinter = "HP_Ink_Tank_Wireless_410_series_401D82";
+  ensurePrinters = [
+    {
+      deviceUri = "ipp://192.168.77.5/ipp";
+      location = "home";
+      name = "HP_Ink_Tank_Wireless_410_series_401D82";
+      model = "drv:///hpcups.drv/hp-ink_tank_wireless_410_series.ppd";
+    }
+  ];
+};
+
+
+
+

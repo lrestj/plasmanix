@@ -1,0 +1,3 @@
+pkgs.linuxPackages
+:l <nixpkgs>
+pkgs.linuxPackages

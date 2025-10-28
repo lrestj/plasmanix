@@ -1,0 +1,23 @@
+C10018 /data/nfs/DataNas/Libor/Ringtones
+F "darbuka long.ogg" 17387 0 1341043788 0
+D t Darbuka a "Sony Ericsson" b "Sony Ericsson" c "BonkEnc v1.0.13 <http://www.bonkenc.org/>"
+D s 32000 n 2 l 0:01.080 i 129k
+F Darbuka.mp3 30301 0 1744187933 0
+D s 44100 n 2 l 0:00.700 i 346k
+F Flute.mp3 8205 0 1341043790 0
+D t Flute a HTC b "HTC Sapphire Sound Suite" y 2008
+D g Other c "www.htc.com  HTC Innovation" s 44100 n 1
+D l 0:01.150 i 49k
+F "Get ti hot.mp3" 599770 0 1741959298 0
+D s 44100 n 2 l 0:14.930 i 321k
+F "Hells Bell ring.flac" 264841 0 1743786172 0
+D s 44100 n 2 l 0:05.466 i 16
+F Instance.mp3 14318 0 1341043788 0
+D t Instance a HTC b "HTC Hero Sound Suite" y 2009
+D g Other c "www.htc.com | htc innovation" s 44100 n 1
+D l 0:02.169 i 49k
+F Sing-Song_Response.ogg 34513 0 1341043798 0
+D t "Sing-Song Response" s 48000 n 1 l 0:01.358
+D i 203k
+F "ZZ Gimme ring.flac" 80090 0 1743785158 0
+D s 44100 n 2 l 0:00.810 i 16

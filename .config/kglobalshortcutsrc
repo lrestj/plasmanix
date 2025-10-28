@@ -240,9 +240,9 @@ previousmedia=Media Previous,Media Previous,Předchozí média
 stopmedia=Media Stop,Media Stop,Zastavit přehrávání média
 
 [org.chromium.Chromium]
-A6140B0A4AEC4C1EC8EBEDCFC76F61B0-addSite=,none,Přepnout současnou stránku
-A6140B0A4AEC4C1EC8EBEDCFC76F61B0-switchEngine=,none,Generátor motivů
-A6140B0A4AEC4C1EC8EBEDCFC76F61B0-toggle=,none,Přepnout rozšíření
+A6140B0A4AEC4C1EC8EBEDCFC76F61B0-addSite=none,none,Přepnout současnou stránku
+A6140B0A4AEC4C1EC8EBEDCFC76F61B0-switchEngine=none,none,Generátor motivů
+A6140B0A4AEC4C1EC8EBEDCFC76F61B0-toggle=none,none,Přepnout rozšíření
 _k_friendly_name=org.chromium.Chromium
 
 [org_kde_powerdevil]
@@ -262,7 +262,7 @@ _k_friendly_name=Správa napájení
 powerProfile=Battery\tMeta+B,Battery\tMeta+B,Přepnout profil napájení
 
 [plasmashell]
-Slideshow Wallpaper Next Image=,,Následující obrázek tapety
+Slideshow Wallpaper Next Image=none,,Následující obrázek tapety
 _k_friendly_name=plasmashell
 activate application launcher=Meta\tAlt+F1,Meta\tAlt+F1,Aktivovat spouštěč aplikací
 activate task manager entry 1=Meta+1,Meta+1,Aktivovat záznam Správce úloh 1
@@ -280,7 +280,7 @@ clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatická nabídka automatické čin
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Přesunovat zaměření klávesnice mezi panely
 cycleNextAction=none,,Následující položka v historii
 cyclePrevAction=none,,Předchozí položka v historii
-edit_clipboard=,,Upravit obsah…
+edit_clipboard=none,,Upravit obsah…
 manage activities=none,Meta+Q,Zobrazit přepínač aktivit
 next activity=none,none,Procházet aktivity
 previous activity=Meta+Shift+A,none,Procházet aktivity (pozpátku)

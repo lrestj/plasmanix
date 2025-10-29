@@ -102,7 +102,7 @@
           timeout = 2;
           systemd-boot = {
               enable = true;
-              configurationLimit = 17;
+              configurationLimit = 7;
               # extraEntries = {
               #     "Lmde.conf" = ''
               #         title Mint Debian Edition 7
@@ -202,20 +202,10 @@
   };
 
   # NFS Synology shares:
-  fileSystems."/nfs/FilmyNas" = {
-      device = "192.168.77.18:/volume1/Filmy";
-      fsType = "nfs";
-      options = [ "nfsvers=4" "x-systemd.automount" "noauto" "x-systemd.iddle-timeout=450" "nofail" ];
-  };
   fileSystems."/nfs/Nas" = {
-      device = "192.168.77.18:/volume1/Rodinas";
+      device = "192.168.77.18:/volume1/";
       fsType = "nfs";
-      options = [ "nfsvers=4" "x-systemd.automount" "noauto" "x-systemd.iddle-timeout=450" "nofail" ];
-  };
-  fileSystems."/nfs/HudbaNas" = {
-      device = "192.168.77.18:/volume1/Hudba";
-      fsType = "nfs";
-      options = [ "nfsvers=4" "x-systemd.automount" "noauto" "x-systemd.iddle-timeout=450" "nofail" ];
+      options = [ "nfsvers=4" "nofail" ];
   };
   
   # Release version of the first install of this system

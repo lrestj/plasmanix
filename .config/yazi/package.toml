@@ -5,30 +5,30 @@ hash = "92fbb5483657fa7976cdf4e0104e18e0"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:jump-to-char"
-rev = "b886025"
-hash = "d2f04875bbd4ed3dd5696e8c4b094fde"
+rev = "8f1d971"
+hash = "ce67445ebb1bf3d97b8e44f50904b2c5"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-enter"
-rev = "b886025"
+rev = "8f1d971"
 hash = "56fdabc96fc1f4d53c96eb884b02a5be"
 
 [[plugin.deps]]
 use = "KKV9/compress"
-rev = "9fc8fe0"
-hash = "2ad086899bf368fba211a33d8f68c39d"
+rev = "c264639"
+hash = "e17c11b605d989568a1d1741ca17c584"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:mount"
-rev = "e95c7b3"
-hash = "e1de3054c0d1a2d8dc6f007eadc0fa31"
+rev = "8f1d971"
+hash = "4fccaaf10c36dc2466e2438a386ff017"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-frappe"
-rev = "d04a298"
-hash = "d659c6fde5148fb5c066518d7fdecddc"
+rev = "f6b425a"
+hash = "2af5f0305730530f23e61ccaba119efe"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-latte"
-rev = "d04a298"
-hash = "a4d508772dc7b20d739a2f9a1d2d396f"
+rev = "f6b425a"
+hash = "31f2ba594080bfc2a68d054101cdc5f1"

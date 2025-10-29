@@ -1,2 +1,5 @@
+[PlasmaRunnerManager]
+LaunchCounts=1 exec:///run/current-system/sw/bin/kitty -e /run/current-system/sw/bin/btop
+
 [PlasmaRunnerManager][History]
-485722a5-6097-40be-a518-3effbabad0a0=kl,ki
+485722a5-6097-40be-a518-3effbabad0a0=b,kl,ki

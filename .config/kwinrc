@@ -1,6 +1,8 @@
 [Desktops]
 Id_1=6e0343b7-0c23-4de1-af87-cc2441c9e680
-Number=1
+Id_2=6130548f-832a-4d69-8993-19f4bc3fc80f
+Id_3=bd1213bf-b080-46fa-90b9-8921c87e0a12
+Number=3
 Rows=1
 
 [NightColor]
@@ -9,7 +11,12 @@ Mode=Constant
 NightTemperature=4900
 
 [Plugins]
+desktopchangeosdEnabled=true
 krohnkiteEnabled=true
+slideEnabled=false
+
+[Script-desktopchangeosd]
+PopupHideDelay=600
 
 [Script-krohnkite]
 binaryTreeLayoutOrder=0
@@ -20,10 +27,10 @@ floatingTitle=xeyes
 newWindowPosition=1
 quarterLayoutOrder=0
 screenGapBetween=5
-screenGapBottom=2
-screenGapLeft=2
-screenGapRight=2
-screenGapTop=2
+screenGapBottom=1
+screenGapLeft=1
+screenGapRight=1
+screenGapTop=1
 spiralLayoutOrder=0
 spreadLayoutOrder=0
 stackedLayoutOrder=0
@@ -33,11 +40,20 @@ threeColumnLayoutOrder=0
 [Tiling]
 padding=4
 
+[Tiling][6130548f-832a-4d69-8993-19f4bc3fc80f][e5bcfa77-8393-453e-aaec-74853929c63c]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][68982d26-37da-5402-ad0d-806dedc0e4c4]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][6e0343b7-0c23-4de1-af87-cc2441c9e680][e5bcfa77-8393-453e-aaec-74853929c63c]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][bd1213bf-b080-46fa-90b9-8921c87e0a12][e5bcfa77-8393-453e-aaec-74853929c63c]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Windows]
+RollOverDesktops=true
 
 [Xwayland]
 Scale=1

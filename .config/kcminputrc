@@ -1,2 +1,6 @@
 [Keyboard]
 NumLock=0
+
+[Mouse]
+cursorSize=40
+cursorTheme=Banana

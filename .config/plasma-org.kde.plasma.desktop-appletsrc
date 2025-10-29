@@ -1,6 +1,26 @@
 [ActionPlugins][0]
 RightButton;NoModifier=org.kde.contextmenu
 
+[ActionPlugins][0][RightButton;NoModifier]
+_add panel=false
+_context=true
+_display_settings=true
+_lock_screen=false
+_logout=true
+_open_terminal=true
+_run_command=false
+_sep1=true
+_sep2=true
+_sep3=true
+_sep4=true
+_wallpaper=true
+add widgets=false
+configure=true
+configure shortcuts=false
+desktop edit mode=true
+manage activities=true
+remove=true
+
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
@@ -50,6 +70,18 @@ fontWeight=400
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
+[Containments][2][Applets][26]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][2][Applets][26][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][2][Applets][26][Configuration][General]
+displayedText=Number
+wrapPage=true
+
 [Containments][2][Applets][3]
 immutability=1
 plugin=org.kde.plasma.kickoff
@@ -62,16 +94,12 @@ popupWidth=599
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][2][Applets][4]
-immutability=1
-plugin=org.kde.plasma.pager
-
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,file:///nix/store/kmfdhd0hccsqkisqw6arkxn85i8m5a48-system-path/share/applications/kitty.desktop,file:///nix/store/35rj75q142n2b8nmsn1ibqj2as88jvwn-system-path/share/applications/brave-browser.desktop
+launchers=preferred://filemanager,applications:brave-browser.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -97,7 +125,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][2][Applets][7][Applets][11][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][2][Applets][7][Applets][12]
 immutability=1
@@ -135,14 +163,14 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][2][Applets][7][Applets][21][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][22]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][23]
 immutability=1
@@ -150,6 +178,13 @@ plugin=org.kde.plasma.networkmanagement
 
 [Containments][2][Applets][7][Applets][23][Configuration]
 PreloadWeight=0
+
+[Containments][2][Applets][7][Applets][27]
+immutability=1
+plugin=org.kde.plasma.brightness
+
+[Containments][2][Applets][7][Applets][27][Configuration]
+PreloadWeight=34
 
 [Containments][2][Applets][7][Applets][9]
 immutability=1
@@ -163,7 +198,7 @@ extraItems=org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.pl
 knownItems=org.kde.plasma.clipboard,org.kde.plasma.manage-inputmethod,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.cameraindicator,org.kde.plasma.volume,org.kde.plasma.keyboardindicator,org.kde.plasma.brightness,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.printmanager,org.kde.plasma.networkmanagement,org.kde.kscreen,org.kde.plasma.weather
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;7;19;20
+AppletOrder=3;26;5;6;7;19;20
 
 [ScreenMapping]
 itemsOnDisabledScreens=

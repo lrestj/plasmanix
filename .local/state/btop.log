@@ -1,3 +1,8 @@
 
 2025/10/26 (12:34:37) | ===> btop++ v.1.4.3
 2025/10/26 (12:34:37) | WARNING: Intel GPU: Failed to initialize PMU
+
+2025/10/29 (09:22:17) | ===> btop++ v.1.4.5
+2025/10/29 (09:22:17) | WARNING: Intel GPU: Failed to initialize PMU
+2025/10/29 (09:22:17) | WARNING: Failed to get disk/partition stats for mount "/bin" with statvfs error code: 2. Ignoring...
+2025/10/29 (09:22:17) | WARNING: Failed to get disk/partition stats for mount "/usr/bin" with statvfs error code: 2. Ignoring...

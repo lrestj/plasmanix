@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
+ <bookmark href="file:///nfs/Nas">
+  <title>/nfs/Nas</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///nfs/Nas/Filmy">
+  <title>/nfs/Nas/Filmy</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <folder>
+  <title>Libor</title>
+  <desc/>
+ </folder>
+ <bookmark href="file:///nfs/Nas">
+  <title>/nfs/Nas</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///nfs/Nas">
+  <title>/nfs/Nas</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///nfs/Nas/Rodinas/Libor/Linux">
+  <title>Linux</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+ </bookmark>
+</xbel>

@@ -107,7 +107,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,applications:brave-browser.desktop
+launchers=applications:brave-browser.desktop,applications:pcmanfm-qt.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -133,7 +133,12 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][2][Applets][7][Applets][11][Configuration]
-PreloadWeight=65
+PreloadWeight=100
+
+[Containments][2][Applets][7][Applets][11][Configuration][General]
+allDevices=true
+popupOnNewDevice=false
+removableDevices=false
 
 [Containments][2][Applets][7][Applets][12]
 immutability=1

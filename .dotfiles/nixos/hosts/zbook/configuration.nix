@@ -202,7 +202,7 @@
   };
 
   # NFS Synology shares:
-  fileSystems."/nfs/Nas" = {
+  fileSystems."/Nas" = {
       device = "192.168.77.18:/volume1/";
       fsType = "nfs";
       options = [ "nfsvers=4" "nofail" ];

@@ -6,5 +6,6 @@ ViewPropsTimestamp=2025,10,26,12,4,17.064
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
-[MainWindow]
-MenuBar=Disabled
+[ViewPropertiesDialog]
+1920x1080 screen: Height=334
+1920x1080 screen: Width=443

@@ -32,6 +32,7 @@
             fish
             kdePackages.kcalc
             kitty
+            pcmanfm-qt
             pdfarranger
             rclone
             reaper  

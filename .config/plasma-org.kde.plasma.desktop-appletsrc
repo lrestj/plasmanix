@@ -136,9 +136,7 @@ plugin=org.kde.plasma.devicenotifier
 PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][11][Configuration][General]
-allDevices=true
 popupOnNewDevice=false
-removableDevices=false
 
 [Containments][2][Applets][7][Applets][12]
 immutability=1

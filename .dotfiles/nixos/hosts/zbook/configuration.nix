@@ -53,22 +53,22 @@
       settings = {
           experimental-features = [ "nix-command" "flakes" ];
           download-buffer-size = 125829120;
-          substituters = [
-              "https://hyprland.cachix.org"
-              "https://yazi.cachix.org" 
-          ];
-          trusted-substituters = [
-              # "https://hyprland.cachix.org"
-              # "https://yazi.cachix.org"  
-              "https://cache.nixos.org"
-              "https://nixpkgs-wayland.cachix.org"
-          ];
-          trusted-public-keys = [
-              # "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="
-              # "yazi.cachix.org-1:Dcdz63NZKfvUCbDGngQDAZq6kOroIrFoyO064uvLh8k="
-              "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
-              "nixpkgs-wayland.cachix.org-1:3lwxaILxMRkVhehr5StQprHdEo4IrE8sRho9R9HOLYA="
-          ];
+          # substituters = [
+          #     "https://hyprland.cachix.org"
+          #     "https://yazi.cachix.org" 
+          # ];
+          # trusted-substituters = [
+          #     # "https://hyprland.cachix.org"
+          #     # "https://yazi.cachix.org"  
+          #     "https://cache.nixos.org"
+          #     "https://nixpkgs-wayland.cachix.org"
+          # ];
+          # trusted-public-keys = [
+          #     # "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="
+          #     # "yazi.cachix.org-1:Dcdz63NZKfvUCbDGngQDAZq6kOroIrFoyO064uvLh8k="
+          #     "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
+          #     "nixpkgs-wayland.cachix.org-1:3lwxaILxMRkVhehr5StQprHdEo4IrE8sRho9R9HOLYA="
+          # ];
       };
       gc = {
           automatic = true;
@@ -157,10 +157,7 @@
       desktopManager.plasma6.enable = true;
       xserver = {
           xkb.layout = "cz";
-          videoDrivers = [
-             "modesetting"
-             "nvidia"
-          ];
+          videoDrivers = [ "modesetting" "nvidia" ];
       };
       journald.extraConfig = "SystemMaxUse=50M";
       getty.autologinUser = "libor";

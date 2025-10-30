@@ -1,3 +1,7 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Obrázky/Tux.png
+Recent URLs[$e]=file:$HOME/Obrázky/
+
 [MainWindow]
 1920x1080 screen: Height=1050
 1920x1080 screen: Width=1918

@@ -43,7 +43,7 @@ DialogWidth=810
 positions={"1920x1080":[]}
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///nix/store/5vljj5rmphzj6vlhfxk6m9a03lpv83ki-plasma-workspace-wallpapers-6.5.1/share/wallpapers/Opal/
+Image=file:///home/libor/.dotfiles/wallpapers/hypr6.jpg
 SlidePaths=/nix/store/cvz2csn8sx3fbwpfg41r08aqr7blg4n1-breeze-6.5.0/share/wallpapers/,/run/current-system/sw/share/wallpapers/
 
 [Containments][2]

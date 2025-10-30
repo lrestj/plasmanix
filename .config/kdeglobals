@@ -131,6 +131,9 @@ Sort reversed=false
 Speedbar Width=148
 View Style=DetailTree
 
+[Shortcuts]
+FullScreen=
+
 [WM]
 activeBackground=85,85,127
 activeBlend=255,255,255

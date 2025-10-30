@@ -300,7 +300,10 @@ _launch=Ctrl+Shift+B
 _launch=Meta+A
 
 [services][org.kde.dolphin.desktop]
-_launch=Ctrl+Shift+D
+_launch=none
+
+[services][pcmanfm-qt.desktop]
+_launch=Ctrl+Shift+F
 
 [services][vim.desktop]
 _launch=Ctrl+Shift+E

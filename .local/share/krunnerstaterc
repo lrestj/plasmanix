@@ -1,5 +1,5 @@
 [PlasmaRunnerManager]
-LaunchCounts=1 exec:///run/current-system/sw/bin/kitty -e /run/current-system/sw/bin/btop
+LaunchCounts=1 exec:///run/current-system/sw/bin/foot -e /run/current-system/sw/bin/btop,5 exec:///run/current-system/sw/bin/kcalc,8 exec:///run/current-system/sw/bin/kitty -e /run/current-system/sw/bin/btop,3 krunner_systemsettings_kcm_keys,1 exec:///run/current-system/sw/bin/kitty -e /run/current-system/sw/bin/yazi,1 exec:///run/current-system/sw/bin/foot,1 krunner_systemsettings_kcm_componentchooser,1 krunner_systemsettings_kcm_cursortheme
 
 [PlasmaRunnerManager][History]
-485722a5-6097-40be-a518-3effbabad0a0=b,kl,ki
+485722a5-6097-40be-a518-3effbabad0a0=foot,vých,zkra,bt,yaz,kurz,kc,btop,b,kl,ki

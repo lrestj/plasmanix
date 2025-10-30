@@ -1,1 +1,12 @@
-InstalledApps=org.kde.gwenview.desktop,org.kde.okular.desktop,simple-scan.desktop,brave-browser.desktop,org.kde.okular.desktop,com.github.jeromerobert.pdfarranger.desktop,com.github.xournalpp.xournalpp.desktop,audacity.desktop,org.kde.elisa.desktop,cockos-reaper.desktop,org.kde.khelpcenter.desktop,org.kde.kinfocenter.desktop,org.kde.ark.desktop,gvim.desktop,hplip.desktop,org.kde.kate.desktop,org.kde.kwrite.desktop,org.kde.plasma.emojier.desktop,org.kde.spectacle.desktop,vim.desktop,yazi.desktop,ytDownloader.desktop,btop.desktop,org.kde.dolphin.desktop,org.kde.kmenuedit.desktop,org.kde.kinfocenter.desktop,kitty.desktop,org.kde.konsole.desktop,org.kde.kwalletmanager.desktop,org.kde.plasma-systemmonitor.desktop,systemsettings.desktop,nixos-manual.desktop,nvidia-settings.desktop,org.kde.drkonqi.coredump.gui.desktop,cups.desktop,yazi.desktop,org.kde.kate.desktop,hp-uiscan.desktop
+InstalledApps=org.kde.gwenview.desktop,org.kde.okular.desktop,simple-scan.desktop,brave-browser.desktop,org.kde.okular.desktop,com.github.jeromerobert.pdfarranger.desktop,com.github.xournalpp.xournalpp.desktop,audacity.desktop,org.kde.elisa.desktop,cockos-reaper.desktop,org.kde.khelpcenter.desktop,org.kde.kinfocenter.desktop,org.kde.ark.desktop,gvim.desktop,hplip.desktop,org.kde.kate.desktop,org.kde.kcalc.desktop,org.kde.kwrite.desktop,org.kde.plasma.emojier.desktop,org.kde.spectacle.desktop,vim.desktop,yazi.desktop,ytDownloader.desktop,btop.desktop,org.kde.dolphin.desktop,org.kde.kmenuedit.desktop,org.kde.kinfocenter.desktop,kitty.desktop,org.kde.konsole.desktop,org.kde.kwalletmanager.desktop,org.kde.plasma-systemmonitor.desktop,systemsettings.desktop,nixos-manual.desktop,nvidia-settings.desktop,org.kde.drkonqi.coredump.gui.desktop,cups.desktop,yazi.desktop,org.kde.kate.desktop,hp-uiscan.desktop
+
+[Application][foot-server.desktop]
+FirstSeen=2025,10,30
+LastSeen=2025,10,30
+
+[Application][foot.desktop]
+LastSeen=2025,10,30
+
+[Application][footclient.desktop]
+FirstSeen=2025,10,30
+LastSeen=2025,10,30

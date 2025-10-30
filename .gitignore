@@ -37,3 +37,4 @@ Public/
 .bash_history
 .viminfo
 .local/share/fish/fish_history
+.viminfz.tmp

@@ -1,22 +1,26 @@
 updateInfoAdded=true
 
 [dolphin_detailsmodesettings.upd]
-ctime=1761672086
+ctime=1761821404
 done=rename-leading-padding,rename-side-padding,move-content-display
 mtime=1
 
 [dolphin_replace_view_mode_with_view_settings_in_toolbar.upd]
-ctime=1761672086
+ctime=1761821404
 mtime=1
 
 [dolphin_statusandlocationbarssettings.upd]
-ctime=1761672086
+ctime=1761821404
 done=move-content-display
 mtime=1
 
 [gtkconfig.upd]
-ctime=1761672033
+ctime=1761821398
 done=dont_use_gtk_css_for_window_decorations
+mtime=1
+
+[kcalcrc.upd]
+ctime=1761748247
 mtime=1
 
 [konsole.upd]
@@ -24,52 +28,52 @@ ctime=1761476057
 mtime=1
 
 [kwin-x11.upd]
-ctime=1761672211
+ctime=1761821421
 mtime=1
 
 [kwin.upd]
-ctime=1761672137
+ctime=1761821413
 mtime=1
 
 [migrate-calendar-to-plugin-id.upd]
-ctime=1761672198
+ctime=1761821418
 done=migrate-calendar-plugins
 mtime=1
 
 [plasma-systemmonitor.upd]
-ctime=1761672186
+ctime=1761821399
 done=memory-column
 mtime=1
 
 [plasma6.0-remove-dpi-settings.upd]
-ctime=1761672198
+ctime=1761821418
 done=migrate-calendar-plugins,memory-column
 mtime=1
 
 [plasma6.0-remove-old-shortcuts.upd]
-ctime=1761672198
+ctime=1761821418
 mtime=1
 
 [plasma6.3-update-clipboard-database-2-to-3.upd]
-ctime=1761672198
+ctime=1761821418
 mtime=1
 
 [plasma6.4-migrate-fullscreen-notifications-to-dnd.upd]
-ctime=1761672198
+ctime=1761821418
 mtime=1
 
 [plasmashell-6.0-keep-custom-position-of-panels.upd]
-ctime=1761672198
+ctime=1761821418
 mtime=1
 
 [plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels.upd]
-ctime=1761672198
+ctime=1761821418
 mtime=1
 
 [plasmashell-6.5-remove-stop-activity-shortcut.upd]
-ctime=1761672198
+ctime=1761821418
 mtime=1
 
 [spectacle.upd]
-ctime=1761672093
+ctime=1761821400
 mtime=1

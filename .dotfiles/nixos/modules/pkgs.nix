@@ -3,7 +3,7 @@
 {
 
   imports = [ 
-      #./vimoverlay.nix
+      # ./vimoverlay.nix
   ]; 
   
   fonts.packages = with pkgs; [
@@ -30,6 +30,7 @@
             btop
             fastfetch
             fish
+            kdePackages.kcalc
             kitty
             pdfarranger
             rclone

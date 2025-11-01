@@ -13,3 +13,14 @@ LastSeen=2025,10,30
 
 [Application][pcmanfm-qt-desktop-pref.desktop]
 FirstSeen=2025,10,30
+
+[Application][thunar-bulk-rename.desktop]
+FirstSeen=2025,11,1
+LastSeen=2025,11,1
+
+[Application][thunar-settings.desktop]
+FirstSeen=2025,11,1
+LastSeen=2025,11,1
+
+[Application][thunar.desktop]
+LastSeen=2025,11,1

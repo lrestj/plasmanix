@@ -148,7 +148,7 @@
       gvfs.enable = true;
       udisks2.enable = true;
       displayManager = {
-          sddm.enable = true;
+          # sddm.enable = true;
           autoLogin = {
               enable = true;
               user = "libor";

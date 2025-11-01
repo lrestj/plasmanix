@@ -38,3 +38,7 @@ Public/
 .viminfo
 .local/share/fish/fish_history
 .viminfz.tmp
+.config/systemmonitorrc
+.local/share/plasma-systemmonitor/
+.local/state/lesshst
+.local/state/plasma-systemmonitorstaterc

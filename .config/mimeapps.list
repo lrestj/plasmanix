@@ -2,7 +2,7 @@
 application/json=vim.desktop;
 application/x-docbook+xml=vim.desktop;
 application/x-yaml=vim.desktop;
-inode/directory=pcmanfm-qt.desktop;
+inode/directory=pcmanfm-qt.desktop;thunar.desktop;
 text/markdown=vim.desktop;
 text/plain=vim.desktop;
 text/x-cmake=vim.desktop;

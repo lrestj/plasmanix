@@ -4,6 +4,7 @@
 
   imports = [ 
       # ./vimoverlay.nix
+        ./greetd.nix
   ]; 
   
   fonts.packages = with pkgs; [
@@ -30,6 +31,7 @@
             btop
             fastfetch
             fish
+            greetd tuigreet
             kdePackages.kcalc
             kitty
             pcmanfm-qt
